@@ -1,0 +1,27 @@
+package lanjut;
+import java.util.Scanner;
+public class bro {
+    static Scanner view = new Scanner(System.in);
+    public static void main(String[]args) {
+       String pemenang;
+       String respon;
+       int A = 6;
+       int B = 6;
+       String hasil;
+        System.out.println("quiz berhadiah");
+        System.out.println("----------------------------------");
+        System.out.println("hallo quiz berhadiah dgn siapa ini ?");
+        pemenang = view.nextLine();
+        System.out.println("selamat pak " + pemenang + " anda memenangkan 20 juta rupiah");
+        respon = view.nextLine();
+        System.out.println("namun ada syaratnya pak " + pemenang + "?");
+        respon = view.nextLine();
+        System.out.println("pak " + pemenang +" harus menjawab pertanyaan berikut, apa anda siap?");
+        respon = view.nextLine();
+        System.out.println("baik, pertanyaanya " + A + " X " + B + " =" );
+        hasil = view.nextLine();
+        System.out.println("benar !! jawabannya  adalah " + hasil + " selamat pak " + pemenang + " jawaban anda benar");
+        respon = view.nextLine();
+    }
+    
+    }
